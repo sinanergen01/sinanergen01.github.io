@@ -3,68 +3,151 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sinan Ergen</title>
+  <title>Sinan Ergen | Academic Homepage</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page">
-    <aside class="sidebar">
-      <h2>Main Menu</h2>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Publications</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Teaching</a></li>
-      </ul>
+  <header class="topbar">
+    <div class="container nav">
+      <div class="logo">Sinan Ergen</div>
+      <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#research">Araştırma</a>
+        <a href="#education">Eğitim</a>
+        <a href="#links">Bağlantılar</a>
+      </nav>
+    </div>
+  </header>
 
-      <h2>Links</h2>
-      <ul>
-        <li><a href="#">Google Scholar</a></li>
-        <li><a href="#">ORCID</a></li>
-        <li><a href="#">GitHub</a></li>
-        <li><a href="#">CV</a></li>
-      </ul>
-    </aside>
+  <main>
+    <section class="hero container" id="about">
+      <div class="hero-text">
+        <p class="eyebrow">Academic Homepage</p>
+        <h1>Sinan Ergen</h1>
+        <p class="subtitle">
+          Araştırma Görevlisi, Matematik  
+          <br />Balıkesir Üniversitesi
+        </p>
+        <p class="description">
+          Sonlu elemanlar yöntemi, hesaplamalı akışkanlar dinamiği,
+          Navier–Stokes denklemleri ve bilimsel hesaplama üzerine çalışıyorum.
+          Bu sayfada araştırma alanlarım, akademik bilgilerim ve bağlantılarım yer almaktadır.
+        </p>
 
-    <main class="content">
-      <h1>Home Page of Sinan Ergen</h1>
-      <hr>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#research">Araştırma Alanları</a>
+          <a class="btn secondary" href="#links">Bağlantılar</a>
+        </div>
+      </div>
 
-      <section class="profile-section">
-        <div class="profile-image">
-          <img src="profile.jpg" alt="Sinan Ergen">
+      <div class="hero-image">
+        <img src="profile.jpg" alt="Sinan Ergen" />
+      </div>
+    </section>
+
+    <section class="section container" id="research">
+      <div class="section-heading">
+        <p class="section-label">Research</p>
+        <h2>Araştırma Alanları</h2>
+      </div>
+
+      <div class="cards">
+        <div class="card">
+          <h3>Finite Element Methods</h3>
+          <p>
+            Kısmi diferansiyel denklemlerin sayısal çözümü için sonlu elemanlar
+            temelli yöntemlerle ilgileniyorum.
+          </p>
         </div>
 
-        <div class="profile-info">
-          <p><strong>Sinan Ergen</strong></p>
-          <p>Research Assistant in Mathematics</p>
-          <p>Department of Mathematics</p>
-          <p>Balıkesir University</p>
-          <p>E-mail: yourmail [at] example [dot] com</p>
+        <div class="card">
+          <h3>Computational Fluid Dynamics</h3>
+          <p>
+            Akış problemlerinin modellenmesi ve nümerik çözümü üzerine çalışıyorum.
+          </p>
         </div>
-      </section>
 
-      <section>
-        <h2>Research Interests</h2>
-        <hr>
-        <ul>
-          <li>Finite Element Methods</li>
-          <li>Computational Fluid Dynamics</li>
-          <li>Navier–Stokes Equations</li>
-          <li>Natural Convection Problems</li>
-          <li>Scientific Computing</li>
-        </ul>
-      </section>
+        <div class="card">
+          <h3>Navier–Stokes Equations</h3>
+          <p>
+            Durağan ve zamana bağlı akış modelleri, iteratif algoritmalar ve çözüm yöntemleri.
+          </p>
+        </div>
 
-      <section>
-        <h2>Education</h2>
-        <hr>
-        <ul>
-          <li>MSc in Mathematics</li>
-          <li>BSc in Mathematics</li>
-        </ul>
-      </section>
-    </main>
-  </div>
+        <div class="card">
+          <h3>Natural Convection</h3>
+          <p>
+            Isı transferi ve akış etkileşiminin doğal konveksiyon problemleri bağlamında incelenmesi.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Scientific Computing</h3>
+          <p>
+            Matematiksel modellerin yüksek doğruluk ve verimlilikle hesaplanmasına yönelik çalışmalar.
+          </p>
+        </div>
+
+        <div class="card">
+          <h3>Numerical Analysis</h3>
+          <p>
+            Yakınsama, kararlılık ve algoritmik performans analizleri üzerine ilgi alanları.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <div class="section-heading">
+        <p class="section-label">Education</p>
+        <h2>Eğitim</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Yüksek Lisans, Matematik</h3>
+            <p>Hacettepe Üniversitesi</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <h3>Lisans, Matematik</h3>
+            <p>Hacettepe Üniversitesi</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="links">
+      <div class="section-heading">
+        <p class="section-label">Links</p>
+        <h2>Bağlantılar</h2>
+      </div>
+
+      <div class="link-grid">
+        <a class="link-box" href="#" target="_blank">Google Scholar</a>
+        <a class="link-box" href="#" target="_blank">ORCID</a>
+        <a class="link-box" href="#" target="_blank">GitHub</a>
+        <a class="link-box" href="cv.pdf" target="_blank">CV</a>
+      </div>
+    </section>
+
+    <section class="section container contact">
+      <div class="contact-box">
+        <h2>İletişim</h2>
+        <p>E-posta: seninmailadresin@balikesir.edu.tr</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Sinan Ergen. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
